@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:padding="16dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Room"
+        android:gravity="top"
+        android:textSize="26dp"
+        android:layout_marginHorizontal="10dp"
+        android:id="@+id/selectRoomET"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Note: Enter the rooms you want to book.
+Can enter multiple rooms."
+        android:textSize="15dp"
+        android:lines="2"
+        android:layout_marginHorizontal="10dp"
+        />
+
+</LinearLayout>
